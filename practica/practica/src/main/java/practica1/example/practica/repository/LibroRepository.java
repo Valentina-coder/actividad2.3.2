@@ -39,17 +39,6 @@ public class LibroRepository {
         return lib;
 
     }
-    public Libro actualizar (Libro lib){
-        int id =0;
-        int idPosicion=0;
 
-        for (int i =0; i < listaLibros.size();i++){
-            if(listaLibros.get(i).getId()==lib.getId()){
-                id= lib.getId();
-                idPosicion =i;
-            }
-        }
-
-    }
 
 }
